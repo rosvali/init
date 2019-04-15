@@ -1,0 +1,4 @@
+VAR=`date | cut -c 12-19 | awk -F: '{print $1" heure(s)",$2" minutes et",$3" seconde(s)"}'`
+
+echo "Il est $VAR"
+
